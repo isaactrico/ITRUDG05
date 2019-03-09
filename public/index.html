@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WebScockets 101</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+        <link href="/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+
+          <!-- <div id="Isaac Torres" class="container-fluid bg-primary">
+            <h2 class='text-primary'>ITR Act-05 Chat Node.js</h2>
+            <div id="chat-window">
+              <div id="output"></div>
+              <div id="feedback"></div>
+            </div>
+            <input  id="handle" type="text" placeholder="Handle" />
+            <input id="message" type="text" placeholder="Message" />
+            <button class="btn btn-primary" id="send">Send</button>
+          </div> -->
+
+          <div class="container-fluid bg-dark">
+            <h2 class='text-warning text-center' >ITR Act-05 Chat Node.js</h2>
+            <div class=" row container bg-secondary col-12 py-2" height="400px" id="chat-window">
+              <div class="row">
+                <div id="output" class="text-light"></div>
+                <div id="feedback" class="text-muted"></div>
+              </div>
+            </div>
+            <div class="row py-2">
+              <div class="input-group">
+                <input type="text" aria-label="First name" class="form-control col-3" placeholder="User" id="handle">
+                <input type="text" aria-label="Last name" class="form-control col-7" placeholder="Message" id="message">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-light bg-danger" type="button" id="send">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+    </body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="/chat.js"></script>
+</html>
